@@ -1,0 +1,390 @@
+$date
+   Wed Feb 28 15:26:37 2024
+$end
+
+$version
+  2023.2
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module full_adder_tb $end
+$var reg 4 ! tb_A [3:0] $end
+$var reg 4 " tb_B [3:0] $end
+$var reg 1 # tb_Cin $end
+$var wire 4 $ tb_S [3:0] $end
+$var wire 1 % tb_Cout $end
+$scope module myfourbit_adder $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 ( Cin $end
+$var wire 4 $ S [3:0] $end
+$var wire 1 % Cout $end
+$var wire 1 ) Cout0 $end
+$var wire 1 * Cout1 $end
+$var wire 1 + Cout2 $end
+$scope module full_adder0 $end
+$var wire 1 , A $end
+$var wire 1 - B $end
+$var wire 1 ( Cin $end
+$var wire 1 . S $end
+$var wire 1 ) Cout $end
+$var wire 1 / S_wire0 $end
+$var wire 1 0 S_wire1 $end
+$var wire 1 1 S_wire2 $end
+$var wire 1 2 S_wire3 $end
+$var wire 1 3 not_A $end
+$var wire 1 4 not_B $end
+$var wire 1 5 not_Cin $end
+$var wire 1 6 C_wire0 $end
+$var wire 1 7 C_wire1 $end
+$var wire 1 8 C_wire2 $end
+$upscope $end
+$scope module full_adder1 $end
+$var wire 1 9 A $end
+$var wire 1 : B $end
+$var wire 1 ) Cin $end
+$var wire 1 ; S $end
+$var wire 1 * Cout $end
+$var wire 1 < S_wire0 $end
+$var wire 1 = S_wire1 $end
+$var wire 1 > S_wire2 $end
+$var wire 1 ? S_wire3 $end
+$var wire 1 @ not_A $end
+$var wire 1 A not_B $end
+$var wire 1 B not_Cin $end
+$var wire 1 C C_wire0 $end
+$var wire 1 D C_wire1 $end
+$var wire 1 E C_wire2 $end
+$upscope $end
+$scope module full_adder2 $end
+$var wire 1 F A $end
+$var wire 1 G B $end
+$var wire 1 * Cin $end
+$var wire 1 H S $end
+$var wire 1 + Cout $end
+$var wire 1 I S_wire0 $end
+$var wire 1 J S_wire1 $end
+$var wire 1 K S_wire2 $end
+$var wire 1 L S_wire3 $end
+$var wire 1 M not_A $end
+$var wire 1 N not_B $end
+$var wire 1 O not_Cin $end
+$var wire 1 P C_wire0 $end
+$var wire 1 Q C_wire1 $end
+$var wire 1 R C_wire2 $end
+$upscope $end
+$scope module full_adder3 $end
+$var wire 1 S A $end
+$var wire 1 T B $end
+$var wire 1 + Cin $end
+$var wire 1 U S $end
+$var wire 1 % Cout $end
+$var wire 1 V S_wire0 $end
+$var wire 1 W S_wire1 $end
+$var wire 1 X S_wire2 $end
+$var wire 1 Y S_wire3 $end
+$var wire 1 Z not_A $end
+$var wire 1 [ not_B $end
+$var wire 1 \ not_Cin $end
+$var wire 1 ] C_wire0 $end
+$var wire 1 ^ C_wire1 $end
+$var wire 1 _ C_wire2 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+bx !
+bx "
+x#
+bx $
+x%
+bx &
+bx '
+x(
+x)
+x*
+x+
+x,
+x-
+x.
+x/
+x0
+x1
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+x;
+x<
+x=
+x>
+x?
+x@
+xA
+xB
+xC
+xD
+xE
+xF
+xG
+xH
+xI
+xJ
+xK
+xL
+xM
+xN
+xO
+xP
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+x[
+x\
+x]
+x^
+x_
+$end
+
+#5000
+b1101 !
+b1011 "
+0#
+b1000 $
+1%
+b1101 &
+b1011 '
+0(
+1)
+1*
+1+
+1,
+1-
+0.
+0/
+00
+01
+02
+03
+04
+15
+16
+07
+08
+09
+1:
+0;
+0<
+0=
+0>
+0?
+1@
+0A
+0B
+0C
+1D
+0E
+1F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+1N
+0O
+0P
+0Q
+1R
+1S
+1T
+1U
+0V
+0W
+0X
+1Y
+0Z
+0[
+0\
+1]
+1^
+1_
+
+#10000
+b0 !
+b0 "
+b0 $
+0%
+b0 &
+b0 '
+0)
+0*
+0+
+0,
+0-
+13
+14
+06
+09
+0:
+1A
+1B
+0D
+0F
+0G
+1M
+1O
+0R
+0S
+0T
+0U
+0V
+0Y
+1Z
+1[
+1\
+0]
+0^
+0_
+
+#15000
+b1101 !
+b1011 "
+b1000 $
+1%
+b1101 &
+b1011 '
+1)
+1*
+1+
+1,
+1-
+0.
+00
+03
+04
+16
+09
+1:
+0;
+0=
+0A
+0B
+1D
+1F
+0G
+0H
+0K
+0M
+0O
+1R
+1S
+1T
+1U
+0W
+1Y
+0Z
+0[
+0\
+1]
+1^
+1_
+
+#20000
+b0 !
+b0 "
+b0 $
+0%
+b0 &
+b0 '
+0)
+0*
+0+
+0,
+0-
+13
+14
+06
+09
+0:
+1A
+1B
+0D
+0F
+0G
+1M
+1O
+0R
+0S
+0T
+0U
+0V
+0Y
+1Z
+1[
+1\
+0]
+0^
+0_
+
+#25000
+b1101 !
+b1011 "
+b1000 $
+1%
+b1101 &
+b1011 '
+1)
+1*
+1+
+1,
+1-
+0.
+00
+03
+04
+16
+09
+1:
+0;
+0=
+0A
+0B
+1D
+1F
+0G
+0H
+0K
+0M
+0O
+1R
+1S
+1T
+1U
+0W
+1Y
+0Z
+0[
+0\
+1]
+1^
+1_

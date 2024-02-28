@@ -1,0 +1,148 @@
+$date
+   Wed Feb 28 15:08:24 2024
+$end
+
+$version
+  2023.2
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module full_adder_tb $end
+$var reg 1 ! tb_A $end
+$var reg 1 " tb_B $end
+$var reg 1 # tb_Cin $end
+$var wire 1 $ tb_S $end
+$var wire 1 % tb_Cout $end
+$scope module myFull_adder $end
+$var wire 1 & A $end
+$var wire 1 ' B $end
+$var wire 1 ( Cin $end
+$var wire 1 $ S $end
+$var wire 1 % Cout $end
+$var wire 1 ) S_wire0 $end
+$var wire 1 * S_wire1 $end
+$var wire 1 + S_wire2 $end
+$var wire 1 , S_wire3 $end
+$var wire 1 - not_A $end
+$var wire 1 . not_B $end
+$var wire 1 / not_Cin $end
+$var wire 1 0 C_wire0 $end
+$var wire 1 1 C_wire1 $end
+$var wire 1 2 C_wire2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+x!
+x"
+x#
+x$
+x%
+x&
+x'
+x(
+x)
+x*
+x+
+x,
+x-
+x.
+x/
+x0
+x1
+x2
+$end
+
+#5000
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+1-
+1.
+1/
+00
+01
+02
+
+#10000
+1#
+1$
+1(
+1)
+0/
+
+#15000
+1"
+0#
+1'
+0(
+0)
+1*
+0.
+1/
+
+#20000
+1#
+0$
+1%
+1(
+0*
+0/
+11
+
+#25000
+1!
+0"
+0#
+1$
+0%
+1&
+0'
+0(
+1+
+0-
+1.
+1/
+01
+
+#30000
+1#
+0$
+1%
+1(
+0+
+0/
+12
+
+#35000
+1"
+0#
+1'
+0(
+0.
+1/
+10
+02
+
+#40000
+1#
+1$
+1(
+1,
+0/
+11
+12
